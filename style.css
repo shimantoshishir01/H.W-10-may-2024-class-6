@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#first_end_header{
+    border-bottom: 3px solid #eef0f3;
+    padding: 10px 0;
+}
+
+#container{
+    width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    margin-top: 13px;
+    width: 45%;
+    float: right;
+    font-size: 20px;
+}
+
+.menu ul{
+    overflow: hidden;
+    float: right;
+
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a{
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    text-decoration: none;
+    margin: 0 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.menu ul li:hover a{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+
+
+/* banner code start */
+
+#banner{
+    padding: 60px 0;
+}
+
+.container02{
+    width: 55%;
+    margin: 0 auto;
+}
+.banner_text{
+    font-family: sans-serif;
+    text-align: center;
+}
+.banner_text h1{ 
+    font-size: 45px;
+    font-weight: 700px;
+    color: #0f2656;
+}
+.banner_text h2{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #008aff;
+    margin: 10px 0;
+}
+.banner_text p{
+    font-size: 16px;
+    line-height: 23px;
+    word-spacing: 1px;
+    color: #0f2656;
+    margin-bottom: 15px;
+}
+.banner_img{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.banner_img img{
+    width: 100%;
+}
+
+/* banner end */
+
+/* sucess code start */
+
+.success{
+    padding: 60px 0;
+}
+
+.success_div{
+    font-family: sans-serif;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.s_left{
+    width: 40%;
+    float: left;
+    text-align: right;
+}
+.s_left h2{
+    font-size: 42px;
+    color: #f15756;
+}
+.s_left p{
+    color: #0f2656;
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.s_right{
+    width: 50%;
+    float: right;
+}
+.s_right h1{
+    font-size: 45px;
+    color: #0f2656;
+    margin: 0;
+    padding-right: 20px;
+}
+
+/* success end */
+
+/* feature start */
+
+.feature{
+    padding: 60px 0;
+}
+
+.f_content{
+    overflow: hidden;
+}
+
+.f_single{
+    width: 28%;
+    padding: 30px 24px 45px;
+    float: left;
+    margin-right: 25px;
+}
+.f_single:last-child{
+    margin-right: 0;
+}
+.pink{
+    background-color: #fdebed;
+}
+.green{
+    background-color: #EBF9F4;
+}
+.yellow{
+   background-color: #FFF7E8;
+}
+
+.f_img{}
+
+.f_img img{
+    width: 100%;
+}
+
+.f_single h2{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.f_single p{
+    font-size: 17px;
+    margin: 0;
+}
+
+
+
+/* feature end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seconde Project code start */
+
+.second_project{
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+   text-align: center;
+}
+
+.header{
+    border: 3px solid black;
+    background-color: dodgerblue;
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#box_mother{
+    overflow: hidden;
+}
+.box_1{
+    border: 3px solid black;
+    background-color: tomato;
+    width: 65%;
+    height: 400px;
+    float: left;
+    margin-top: 20px;
+    
+}
+.box_2{
+    border: 3px solid black;
+    background-color: #ffa500;
+    width: 34%;
+    height: 400px;
+    float: right;
+    margin-top: 20px;
+}
+.box{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.Footer{
+    border: 3px solid black;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 150px;
+    
+}
+.footer_text{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/*  Block and Inline Elements code */
+
+
+.block_inline{
+    border: 4px solid red;
+    margin: 30px 0;
+}
+.block_level_text{
+    margin-left: 20px;
+    font-size: 40px;   
+}
+
+
+
+
+/* responsive area start */
+@media only screen and (max-width: 688px){
+   
+
+    .logo{
+        width: 30%;
+        margin-top: 50px;
+        margin-left: 20px;
+        float: left;
+        
+    }
+    .logo img{
+        width: 100%;
+    }
+    .menu{
+        margin-top: 5%;
+        width: 30%;
+        float: right;
+        
+    }
+     /* success area */
+
+     .success{
+        margin: 0;
+        padding: 0;
+    }
+    .success_div{
+        margin: 0;
+        padding: 0;
+    }
+    .s_left{
+        width: 100%;
+        float:none;
+        text-align: right;
+    }
+    .s_right{
+        margin: 20px 5px 0 5px;
+        width: 100%;
+        float: none;
+        font-size: 25px;
+    }
+    .s_left h2{
+        font-size: 40px;
+        color: #f15756;
+        text-align: center;
+    }
+
+    /* F SINGLE */
+
+    .f_single{
+        width: 90%;
+        padding: 30px 10px;
+        margin-left: 20px;
+        margin-left: 0;
+        float: none;
+        margin: 20px 0px;
+    }
+   
+   
+   
+   
+   
+   /* second project */
+
+   .second_project{
+    font-size: 30px;
+   }
+    .header{
+        font-size: 25px;
+    }
+    .box_1{
+        width: 55%;
+        height: 400px;
+        float: left;
+        margin-left: 5px;
+    }
+    .box_2{
+        width: 40%;
+        height: 400px;
+        float: right;
+        margin-right: 5px;
+    }
+
+    .box{
+        margin-top: 150px;
+        font-size: 25px;
+    }
+    .footer_text{
+        font-size: 25px;
+    }
+
+    /* block and inline elements */
+
+    .block_level_text{
+        margin-left: 20px;
+        font-size: 25px;   
+    }
+    .block_img{
+        width: 100%;
+        height: auto;
+    }
+    .inline_img{
+        width: 100%;
+        height: auto;
+    }
+   
+}
+
+
+@media only screen and (min-width:689px) and (max-width:1099px){
+    .header{
+        font-size: 50px;
+    }
+    .box_1{
+        width: 55%;
+        height: 700px;
+        float: left;
+    }
+    .box_2{
+        width: 40%;
+        height: 700px;
+        float: right;
+    }
+
+    .box{
+        margin-top: 300px;
+        font-size: 50px;
+    }
+    .footer_text{
+        font-size: 50px;
+    }
+
+
+    /* block and inline elements */
+
+    .block_level_text{
+        margin-left: 20px;
+        font-size: 25px;   
+    }
+    .block_img{
+        width: 100%;
+        height: auto;
+    }
+    .inline_img{
+        width: 100%;
+        height: auto;
+    }
+    
+
+}
